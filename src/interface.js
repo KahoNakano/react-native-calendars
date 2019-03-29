@@ -15,7 +15,7 @@ function xdateToData(xdate) {
     day: xdate.getDate(),
     timestamp: XDate(dateString, true).getTime(),
     dateString: dateString,
-    dayOfWeek:xdate.toString('S')
+    dayOfWeek:xdate.getDay()
   };
 }
 
